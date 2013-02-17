@@ -1,1 +1,28 @@
 <?php
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+ 
+$default_theme = 'zink';
+$admin_theme = 'rubik';
+ 
+function d7standard_install() {
+  d7standard_enable_themes();
+}
+
+function d7standard_enable_themes() {
+  $enable = array(
+    'theme_default' => 'omega',
+    'admin_theme' => 'rubik',
+  );
+  theme_enable($enable);
+  foreach ($enable as $var => $theme) {
+    if (!is_numeric($var)) {
+      variable_set($var, $theme);
+    }
+  }
+  variable_set('node_admin_theme', '1');
+  theme_disable(array('bartik'));
+}
