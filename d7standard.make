@@ -13,7 +13,7 @@ projects[webform][subdir] = contrib
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
-projects[colorbox]subdir] = contrib
+projects[colorbox][subdir] = contrib
 ; Basic Plumbing
 projects[ctools][subdir] = contrib
 projects[entity][subdir] = contrib
