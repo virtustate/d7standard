@@ -38,3 +38,7 @@ projects[omega][subdir] = contrib
 ; Development
 projects[devel][subdir] = contrib
 projects[sweaver][subdir] = contrib
+; Libraries
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_standard.tar.gz"
+libraries[ckeditor][destination] = "libraries"
