@@ -23,7 +23,7 @@ dependencies[] = number
 ; Contributed
 ; Admin
 dependencies[] = admin_menu
-dependencies[] = captcha_image
+dependencies[] = image_captcha
 dependencies[] = module_filter
 dependencies[] = libraries
 ; Content
@@ -40,9 +40,5 @@ dependencies[] = easy_social
 dependencies[] = google_analytics
 dependencies[] = xmlsitemap
 dependencies[] = token
-dependencies[] = metattag
+dependencies[] = metatag
 ; Development
-; Themes
-dependencies[] = rubik
-dependencies[] = omega
-
