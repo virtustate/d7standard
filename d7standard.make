@@ -33,7 +33,7 @@ projects[token][subdir] = contrib
 projects[metatag][subdir] = contrib
 ; Themes
 projects[rubik][subdir] = contrib
-projects[tau][subdir] = contrib
+projects[tao][subdir] = contrib
 projects[omega][subdir] = contrib
 ; Development
 projects[devel][subdir] = contrib
