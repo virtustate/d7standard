@@ -3,6 +3,7 @@
 /**
  * implements hook_install_configure_form_alter()
  */
+/*
 function d7standard_form_install_configure_form_alter(&$form, &$form_state) {
   $form['site_information']['site_name']['#default_value'] = 'd7standard';
   $form['site_information']['site_mail']['#default_value'] = 'skelley@hawthornedirect.com';
@@ -10,7 +11,7 @@ function d7standard_form_install_configure_form_alter(&$form, &$form_state) {
   $form['admin_account']['account']['mail']['#default_value'] = 'skelley@hawthornedirect.com';
   $form['server_settings']['site_default_country']['#default_value'] = 'US';
 }
-
+*/
 /**
  * Set Open zink as default install profile.
  *
