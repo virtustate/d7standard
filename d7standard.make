@@ -35,6 +35,16 @@ projects[metatag][subdir] = contrib
 projects[rubik][subdir] = contrib
 projects[tao][subdir] = contrib
 projects[omega][subdir] = contrib
+projects[adaptivetheme][subdir] = contrib
+projects[fusion][subdir] = contrib
+projects[fusion_accelerator][subdir] = contrib
+projects[corporateclean][subdir] = contrib
+projects[picture_releoaded][subdir] = contrib
+projects[corola][subdir] = contrib
+projects[sky][subdir] = contrib
+projects[arctica][subdir] = contrib
+projects[tundra][subdir] = contrib
+projects[art][subdir] = contrib
 ; Development
 projects[devel][subdir] = contrib
 projects[sweaver][subdir] = contrib
